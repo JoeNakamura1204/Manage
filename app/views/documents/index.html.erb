@@ -1,0 +1,8 @@
+<p>ドキュメント保存画面</p>
+
+<% @documents.each do |document| %>
+  <p><%= document.title %></p>
+  <p><%= document.content %></p>
+  <p><%= document.created_at %></p>
+<% end %>
+
