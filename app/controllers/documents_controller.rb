@@ -1,7 +1,8 @@
 require 'net/https'
-
+require File.expand_path('../Manage/tendermintGCI','.')
+puts File.expand_path('../app.js',__dir__)
 class DocumentsController < ApplicationController
-  GCI_tendermint = "d4654cfa16a779cf51f12a4256a48835591ba4982d4a69f52d06e754ca9b0699"
+
   def index
     @documents = Document.all
   end
@@ -17,9 +18,10 @@ class DocumentsController < ApplicationController
     else
       redirect_to new_document_path
     end
+
     content_hash = @document.content.hash
     tx = %('{"document_db_id":#{@document.id},"content_hash":"#{content_hash}"}')
-    system(%(lotion send #{GCI_tendermint} #{tx}))
+    system(%(lotion send #{$GCI_tendermint} #{tx}))
 
     @document.update(tx_hash:p)
 

@@ -6,7 +6,7 @@
         <div class="uk-width-expand">
           <h3 class="uk-card-title uk-margin-remove-bottom">
             <div class="uk-margin">
-              <p>書類名   <%= @document.title  %></p>
+              <p><%= @document.title  %></p>
               <p class="uk-text-meta uk-margin-remove-top">作成日時　<%= @document.created_at %></p>
             </div>
 
@@ -17,10 +17,7 @@
     <div class="uk-card-body">
       <div class="uk-margin">
         <p>議題</p>
-        <p><%= @document.content  %></p>
+        <p class="uk-textarea"><%= @document.content  %></p>
       </div>
-    </div>
-    <div class="uk-card-footer">
-      <p> <%= @document.tx_hash  %></p>
     </div>
   </div>
