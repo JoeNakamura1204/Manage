@@ -17,8 +17,8 @@ class DocumentsController < ApplicationController
     else
       redirect_to new_document_path
     end
-
-    tx = %('{"document_db_id":#{@document.id},"content_hash":"#{@document.content}"}')
+    content_hash = @document.content.hash
+    tx = %('{"document_db_id":#{@document.id},"content_hash":"#{content_hash}"}')
     system(%(lotion send #{GCI_tendermint} #{tx}))
 
     @document.update(tx_hash:p)
