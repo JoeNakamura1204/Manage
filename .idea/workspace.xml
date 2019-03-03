@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d5ed26d-f090-44c8-ac40-18eb2d9be262" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/documents/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tendermintGCI.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Manage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/documents_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/documents_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/document.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/document.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/documents/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/documents/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/documents/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/documents/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -58,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/documents/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+            <state relative-caret-position="480">
+              <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -97,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="300">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -132,7 +120,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20190302084952_remove_hash.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/tendermintGCI.rb" />
-        <option value="$PROJECT_DIR$/app/views/documents/new.html.erb" />
         <option value="$PROJECT_DIR$/app/models/document.rb" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/db/migrate/20190303024259_add_tx_hash_to_document.rb" />
@@ -141,6 +128,7 @@
         <option value="$PROJECT_DIR$/app/views/documents/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/documents/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/documents_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/documents/new.html.erb" />
       </list>
     </option>
   </component>
@@ -329,12 +317,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551515265126</updated>
-      <workItem from="1551515266884" duration="22000000" />
+      <workItem from="1551515266884" duration="22413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22000000" />
+    <option name="totallyTimeSpent" value="22413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -445,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/documents/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/documents_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -461,8 +442,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/documents/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
         </state>
       </provider>
     </entry>

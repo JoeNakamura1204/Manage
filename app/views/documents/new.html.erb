@@ -8,7 +8,7 @@
           <h3 class="uk-card-title uk-margin-remove-bottom">
             <div class="uk-margin">
               <p>書類名</p>
-              <%= d.text_field :title, class:"uk-input", placeholder:"Document Title"%>
+              <%= d.text_field :title, class:"uk-input", placeholder:"第一回取締役会議事録"%>
             </div>
 
           </h3>
@@ -18,7 +18,22 @@
     <div class="uk-card-body">
       <div class="uk-margin">
         <p>議題</p>
-        <%= d.text_area :content, class:"uk-textarea",placeholder:"Document Content", row:30 %>
+        <%= d.text_area :content, class:"uk-textarea",placeholder:"平成Ο年Ο月Ο日（Ο曜日）午前Ο時Ο分より当会社本店会議室において取締役会を開催した。
+　　取締役の総数　Ο名　	出席取締役の数　Ο名
+　　監査役の総数　Ο名　	出席監査役の数　Ο名
+以上のとおり出席があったので、本取締役会は適法に成立した。代表取締役ОΟОΟが議長となり、定刻に開会を宣し、直ちに議案の審議に入った。
+第1議案 〇〇の件
+第2議案 〇〇件
+議長は、第Ο期定時株主総会を以下のとおり招集する旨を述べ、その可否を議事にはかったところ、全会一致で承認を可決した。
+1　日時　平成Ο年Ο月Ο日（Ο曜日）　午前Ο時から
+2　場所　本社会議室
+3　会議の目的事項
+　　　　
+以上をもって本取締役会の議案を終了したので、議長は閉会を宣し、午前Ο時Ο分に散会した。
+上記の決議を明確にするため、本議事録を作成し、議長および出席取締役（、監査役）がこれに記名捺印する。
+平成Ο年Ο月Ο日
+株式会社ΟООΟ取締役会
+議長　　〇〇" %>
       </div>
 
     </div>
