@@ -1,8 +1,13 @@
-<p>ドキュメント保存画面</p>
-
+<h3>社内書類一覧</h3>
 <% @documents.each do |document| %>
-  <p><%= document.title %></p>
-  <p><%= document.content %></p>
-  <p><%= document.created_at %></p>
+  <%= link_to document_path(document.id) do  %>
+    <dl class="uk-description-list uk-description-list-divider">
+        <dt><%= document.title  %></dt>
+        <dd><%= document.created_at %></dd>
+        <hr class="uk-divider-icon">
+    </dl>
+  <% end %>
 <% end %>
+
+
 

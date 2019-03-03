@@ -1,14 +1,13 @@
-<h3 class="">社内機密文書作成・アップロード</h3>
+<h3 class="">社内文書作成</h3>
 
-<%= form_for @document do |d| %>
   <div class="uk-card uk-card-default uk-width-1-2@m uk-align-center">
     <div class="uk-card-header">
       <div class="uk-grid-small uk-flex-middle" uk-grid>
         <div class="uk-width-expand">
           <h3 class="uk-card-title uk-margin-remove-bottom">
             <div class="uk-margin">
-              <p>書類名</p>
-              <%= d.text_field :title, class:"uk-input", placeholder:"Document Title"%>
+              <p>書類名   <%= @document.title  %></p>
+              <p class="uk-text-meta uk-margin-remove-top">作成日時　<%= @document.created_at %></p>
             </div>
 
           </h3>
@@ -18,14 +17,10 @@
     <div class="uk-card-body">
       <div class="uk-margin">
         <p>議題</p>
-        <%= d.text_area :content, class:"uk-textarea",placeholder:"Document Content", row:30 %>
+        <p><%= @document.content  %></p>
       </div>
-
     </div>
     <div class="uk-card-footer">
-      <%= d.submit "アップロード", class: "uk-button uk-button-primary" %>
+      <p> <%= @document.tx_hash  %></p>
     </div>
   </div>
-<% end %>
-
-
