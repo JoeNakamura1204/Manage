@@ -1,1 +1,1 @@
-$GCI_tendermint = "d4654cfa16a779cf51f12a4256a48835591ba4982d4a69f52d06e754ca9b0699"
+$GCI_tendermint = "__" #←ここにGCIを代入
